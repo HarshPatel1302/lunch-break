@@ -18,7 +18,7 @@ export function Textarea({ label, className = "", ...props }: TextareaProps) {
       <motion.textarea
         className={`w-full px-4 py-3 rounded-xl border-2 border-lunch-yellow focus:border-lunch-orange focus:outline-none transition-all duration-300 bg-white text-lunch-dark resize-none ${className}`}
         whileFocus={{ scale: 1.02 }}
-        {...props}
+        {...(props as any)}
       />
     </div>
   );

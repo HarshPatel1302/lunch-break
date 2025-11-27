@@ -21,7 +21,7 @@ export function Input({ label, className = "", ...props }: InputProps) {
         id={inputId}
         className={`w-full px-4 py-3 rounded-xl border-2 border-lunch-yellow focus:border-lunch-orange focus:outline-none transition-all duration-300 bg-white text-lunch-dark ${className}`}
         whileFocus={{ scale: 1.02 }}
-        {...props}
+        {...(props as any)}
       />
     </div>
   );
