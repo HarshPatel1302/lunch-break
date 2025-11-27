@@ -94,6 +94,7 @@ export function FoodBackground() {
       emoji: foods[Math.floor(Math.random() * foods.length)],
     }));
     setPositions(newPositions);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

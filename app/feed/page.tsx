@@ -126,13 +126,13 @@ export default function FeedPage() {
                       </div>
                       <div className="mb-2">
                         <span className="text-sm text-gray-600">
-                          ❌ Didn't bring lunch
+                          ❌ Didn&apos;t bring lunch
                         </span>
                       </div>
                       {update.foodRequest && (
                         <div className="mt-3 p-3 bg-lunch-light rounded-xl">
                           <p className="text-lunch-dark font-medium">
-                            🍴 "{update.foodRequest}"
+                            🍴 &ldquo;{update.foodRequest}&rdquo;
                           </p>
                         </div>
                       )}

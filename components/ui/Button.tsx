@@ -37,7 +37,6 @@ export function Button({
       className={`${baseStyles} ${variants[variant]} ${className}`}
       whileHover={{ scale: disabled ? 1 : 1.05 }}
       whileTap={{ scale: disabled ? 1 : 0.95 }}
-      disabled={disabled}
     >
       {children}
     </motion.button>

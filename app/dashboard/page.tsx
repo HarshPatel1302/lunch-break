@@ -165,7 +165,7 @@ export default function DashboardPage() {
                 <BouncingFood emoji="❌" />
               </div>
               <h3 className="text-2xl font-bold text-lunch-dark mb-4">
-                Didn't Bring Lunch
+                Didn&apos;t Bring Lunch
               </h3>
               <Button
                 variant="danger"
@@ -263,7 +263,7 @@ export default function DashboardPage() {
                         </div>
                         {update.foodRequest && (
                           <p className="text-lunch-dark ml-8">
-                            💬 "{update.foodRequest}"
+                            💬 &ldquo;{update.foodRequest}&rdquo;
                           </p>
                         )}
                       </div>

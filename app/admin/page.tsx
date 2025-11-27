@@ -300,7 +300,7 @@ export default function AdminPage() {
                           {update.foodRequest && (
                             <div className="bg-white p-3 rounded-lg mt-2">
                               <p className="text-sm font-semibold text-lunch-dark">
-                                💬 "{update.foodRequest}"
+                                💬 &ldquo;{update.foodRequest}&rdquo;
                               </p>
                             </div>
                           )}
